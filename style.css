@@ -1,0 +1,49 @@
+body {
+	background-color: #dcb484;
+}
+
+h1 {
+	text-align: center;
+	color: rgb(250, 249, 242);
+}
+
+#boardContainer { 
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	width: 306px;
+	margin: 10px auto;
+	background-color: #eeeeee;
+	color: #c09e04;
+}
+
+.cell {
+	font-family: "PERMANENT MARKER", cursive;
+	width: 100px;
+	height: 100px;
+	box-shadow: 2px 2px 2px 2px #e6d0b2;
+	border: 2px solid #ecd7ba;
+	cursor: pointer;
+	line-height: 100px;
+	font-size: 60px;
+}
+
+#resetButton {
+	background-color: #b8671c;
+    border: none;
+	position: absolute;
+	bottom: 150px;
+	right: 640px;
+    color: white;
+    display: inline-block;
+	border-radius: 10px;
+	padding: 5px 10px;
+}
+
+#turnDisplay {
+	text-align: center;
+}
+
+#finalResults {
+	text-align: center;
+}
+	
