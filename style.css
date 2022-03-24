@@ -29,12 +29,12 @@ h1 {
 
 #resetButton {
 	background-color: #b8671c;
-    border: none;
+        border: none;
 	position: absolute;
 	bottom: 150px;
 	right: 640px;
-    color: white;
-    display: inline-block;
+        color: white;
+        display: inline-block;
 	border-radius: 10px;
 	padding: 5px 10px;
 }
